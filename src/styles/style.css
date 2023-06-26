@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3{
+    font-family: 'Comic Neue', cursive;
+}
+
+section{
+    scroll-margin-top: 120px;
+}
+
+h1{
+    margin-top: 120px;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    box-shadow: 0px 0px 10px black;
+}
+
+nav{
+    width: 100%;
+    background-color: bisque;
+}
+
+@media (min-width: 576px){
+    nav{
+        position: fixed;
+        top: 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    img{
+        width:50%;
+        margin: 0 auto;
+        display: block;
+    }
+    p{
+        width:80%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+h1, h2, h3, #contact, footer{
+    text-align: center;
+}
+
+
