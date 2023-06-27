@@ -10,6 +10,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    color:rgb(50, 0, 0);
 }
 
 h1, h2, h3{
@@ -18,7 +19,6 @@ h1, h2, h3{
 
 main, section, footer{
     scroll-margin-top: 120px;
-    background-color: rgba(255, 228, 196, 0.3);
 }
 
 main{
@@ -27,7 +27,6 @@ main{
 
 p, li{
     font-family: Helvetica, Arial, sans-serif;
-
     width: 100%;
     margin: 0 auto;
     display: block;
@@ -45,6 +44,31 @@ nav{
     background-color: bisque;
 }
 
+.flex-container {
+    display: flex;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    color: rgb(32, 32, 32);
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: rgba(219, 175, 93, 0.449);
+    text-decoration: underline;
+    border-radius: 13px;
+}
+
+#pictures .flex-container > div {
+    width: 25%;
+    border: 2px solid black;
+}
+
 @media (min-width: 576px){
     nav{
         position: fixed;
@@ -55,7 +79,7 @@ nav{
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     img{
-        width:50%;
+        width:100%;
         margin: 0 auto;
         display: block;
     }
