@@ -4,12 +4,21 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    background-image: url(../../images/grassBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 h1, h2, h3{
     font-family: 'Comic Neue', cursive;
 }
 
-main, section{
+main, section, footer{
     scroll-margin-top: 120px;
+    background-color: rgba(255, 228, 196, 0.3);
 }
 
 main{
